@@ -1,8 +1,8 @@
 import React from "react";
 import axios from "axios";
 
-import ListRepositories from "./ListRepositories";
-import SearchForm from "./SearchForm";
+import ListRepositories from "./list-repositories";
+import SearchForm from "./search-form";
 import { GitHubRepository, GitHubSearchResultType } from "../../types/GitHub";
 
 export const Search = () => {

@@ -1,0 +1,42 @@
+export const QuizQuestions = [
+  {
+    question: "What is my name?",
+    optionA: "John",
+    optionB: "Rabbani",
+    optionC: "Josh",
+    optionD: "Pedro",
+    asnwer: "B",
+  },
+  {
+    question: "Which of this is not a programming language?",
+    optionA: "Python",
+    optionB: "JavaScript",
+    optionC: "MC-03",
+    optionD: "Java",
+    asnwer: "C",
+  },
+  {
+    question: "Which of this is not a javascript framework?",
+    optionA: "React",
+    optionB: "Angular",
+    optionC: "Vue",
+    optionD: "Java",
+    asnwer: "D",
+  },
+  {
+    question: "National Animal of India?",
+    optionA: "Lion",
+    optionB: "Tiger",
+    optionC: "Bear",
+    optionD: "Elephant",
+    asnwer: "B",
+  },
+  {
+    question: "National Bird of India?",
+    optionA: "Lion",
+    optionB: "Pecoke",
+    optionC: "Bear",
+    optionD: "Elephant",
+    asnwer: "B",
+  },
+];

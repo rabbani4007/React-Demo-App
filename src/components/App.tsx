@@ -11,6 +11,7 @@ import Examples from "./learning-page/examples";
 import User from "./user/user";
 import LoginComponent from "./login-component";
 import RegisterComponent from "./register-component";
+import QuizComponent from "./quiz-portal/quiz-component";
 
 function App() {
   return (
@@ -26,10 +27,11 @@ function App() {
             <Route path="/search" component={Search} />
             <Route path="/news" component={NewsPortal} />
             <Route path="/examples" component={Examples} />
-            <Route
-              path="/user"
+            {/* <Route
+              path="/quiz"
               component={() => <User firstName="rabbani" />}
-            />
+            /> */}
+            <Route path="/quiz" component={QuizComponent} />
             <Route path="/login" component={LoginComponent} />
             <Route path="/register" component={RegisterComponent} />
           </Switch>

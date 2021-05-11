@@ -80,9 +80,9 @@ export const Header = () => {
                   activeClassName="active"
                   className="nav-link active"
                   aria-current="page"
-                  to="/user"
+                  to="/quiz"
                 >
-                  User
+                  Quiz
                 </NavLink>
               </li>
               <li className="nav-item">

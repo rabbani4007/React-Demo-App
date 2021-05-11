@@ -78,7 +78,7 @@ const NewsPortal = () => {
   }, []);
 
   return (
-    <div style={{ paddingTop: "5px" }}>
+    <div style={{ paddingTop: "20px" }}>
       <div className="row" style={{ paddingBottom: "10px" }}>
         <div className="col-sm">
           <select
